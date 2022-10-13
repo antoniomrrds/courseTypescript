@@ -3,14 +3,14 @@ export function isNumber(value: unknown): value is number {
 }
 
 export function sum<T>(...args: T[]): number {
-  const retorno = args.reduce((sum, value) => {
+  const returning = args.reduce((sum, value) => {
     if (isNumber(sum) && isNumber(value)) {
       return sum + value;
     }
     return sum;
   }, 0);
 
-  return retorno;
+  return returning;
 }
 
 console.log(sum(1, 2, 3));
