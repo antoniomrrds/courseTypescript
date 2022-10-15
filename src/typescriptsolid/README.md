@@ -1,0 +1,2 @@
+# typescriptsolid
+Princípios SOLID
