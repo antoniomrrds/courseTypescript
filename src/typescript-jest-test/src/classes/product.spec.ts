@@ -7,7 +7,7 @@ describe('Messaging', () => {
   //limpa apos cada teste
   afterEach(() => jest.clearAllMocks());
 
-  it('should return name and price correct', () => {
+  it('should have properties name and price ', () => {
     //System under test
     const sut = createSut('caneta',23.50);
     expect(sut).toHaveProperty('name','caneta');
