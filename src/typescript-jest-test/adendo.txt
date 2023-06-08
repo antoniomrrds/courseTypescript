@@ -1,0 +1,9 @@
+Os princípios do F.I.R.S.T Clean Code para testes são:
+
+1. **Fast (Rápido)**: Os testes devem ser rápidos, executando de forma eficiente para que possam ser executados com frequência, permitindo feedback rápido sobre o código.
+2. **Independent (Independente)**: Os testes devem ser independentes uns dos outros, de modo que possam ser executados em qualquer ordem. Cada teste deve poder ser executado isoladamente, sem depender do estado ou resultado de outros testes.
+3. **Repeatable (Repetível)**: Os testes devem produzir resultados consistentes em todas as execuções. Eles não devem depender de fatores externos, como recursos do sistema ou conectividade de rede, que possam levar a resultados variáveis.
+4. **Self-validating (Autovalidação)**: Os testes devem ser autoexplicativos, sem a necessidade de inspeção manual dos resultados. O sucesso ou falha do teste deve ser facilmente determinado pelo próprio teste, sem a necessidade de análise adicional.
+5. **Timely (Oportuno)**: Os testes devem ser escritos o mais cedo possível, de preferência antes mesmo do código que está sendo testado. Eles devem acompanhar o desenvolvimento do código e ser atualizados à medida que o código é alterado ou expandido.
+
+Esses princípios ajudam a garantir que os testes sejam eficientes, confiáveis e de fácil manutenção, proporcionando uma base sólida para a prática de desenvolvimento de software.
